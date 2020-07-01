@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap">
+    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="content-header">
+            <div class="bar">
+                <a href="index.html">
+                    <img src="/img/logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <a href="about.html">About</a>
+                    
+                    <a href="contact.html">Contact</a>
+                    <a href="gallery.html">Gallery</a>
+                </nav>
+            </div> <!-- close the bar-->
+            <h1>Super Swanky Living Spaces</h1>
+        </div><!--closes the content-header -->
+    </header>
+
+    <h2 class="center">Contact</h2>
+    <img src="/img/destacada.jpg" alt="Some Picture">
+    <main class="container">
+        <form action="#">
+            <fieldset>
+                <legend>Wesley Ray</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="id">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="userEmail">
+
+                <label for="phone">Phone:</label>
+                <input type="phone" name="phone" id="userPhone">
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="userMessage" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Product Information</legend>
+                <label for="type">Type</label>
+                <select name="type" id="product">
+                    <option value="" selected disabled> --- Select an option ---</option>
+                    <option value="sell">Sell</option>
+                    <option value="buy">Buy</option>
+                </select>
+
+                <label for="number">Number</label>
+                <input type="number" name="number" id="productNumber">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>If you want to be contacted by phone, please provide an available time.</p>
+
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time">
+            </fieldset>
+
+            <div class="btn-form">
+                <input class="btn" type="submit" value="Send">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <a href="about.html">about</a>
+            
+            <a href="contact.html">contact</a>
+            <a href="gallery.html">gallery</a>
+        </nav>
+        <p>Copyright 2020 &copy; all rights reserved</p>
+    </footer>
+</body>
+</html> 
